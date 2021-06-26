@@ -1,0 +1,12 @@
+.actions-default {
+    display: none;
+}
+
+/* gonna look for all empty classes actions   */
+.actions:empty {
+    display: none;
+}
+
+.actions:empty + .actions-default {
+    display: block;
+}
